@@ -41,7 +41,8 @@ int main(int argc, char * argv[])
 	MPI_Init(&argc, &argv);//iniciamos el entorno MPI
     MPI_Comm_rank(MPI_COMM_WORLD,&rank);//obtenemos el identificador del proceso
     MPI_Comm_size(MPI_COMM_WORLD,&size);//obtenemos el numero de procesos
-
+    MPI_File fh;
+    MPI_Status status;
     
 
 }
